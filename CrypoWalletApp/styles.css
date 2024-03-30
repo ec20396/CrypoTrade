@@ -1,0 +1,159 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background: #212121;
+    color: rgba(255, 255, 255, 0.65);
+}
+a {
+    text-decoration: none !important;
+    color: white;
+}
+/* Buttons and inputs */
+.btn, .search-box, ::placeholder, h1, h2, h3, h4{ /* DEFAULT BUTTONS */
+    text-decoration: none;
+    color: #DEFDF0;
+}
+
+.link-fill {
+    width: 100%;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+}
+.btn-lg { /* large button class */
+    width: 30%;
+}
+::placeholder, input {
+    font-size: 20px;
+}
+
+.btn, .search-box {
+    border: none;
+    outline: none;
+    margin: 0px 0.5rem;
+    padding: 0.8em 0.7rem;
+}
+
+.search-box:hover{
+    background-color: #ACF8D86d;
+}
+
+.btn-delete { /* RED BUTTONS FOR DELETE/REMOVE */
+    background-color: rgb(121, 60, 60);
+}
+.btn-delete:hover {
+    background-color: rgb(208, 89, 89);
+}
+.btn-create { /* GREEN BUTTONS FOR CREATE/ADD */
+    background-color: #65f4c065;
+}
+.btn-edit {
+    background-color: turquoise;
+}
+.btn-edit:hover {
+    background-color: blue;
+}
+.btn-create:hover {
+    background-color: #65f4c0b4;
+}
+
+.search-box {
+    border-radius: 18px;
+    width: 75%;
+    transition: 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 991px){
+    .btn-lg {
+        width: 50%;
+        margin-top: 0.5em;
+    }
+    .search-box {
+        width: 90%;
+    }
+}
+
+/* Headings */
+.big-heading { /* h1 */
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading { /* h3 */
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color:rgba(255, 255, 255, 0.65);
+}
+
+/* containers */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color:#303030;
+    width: 100%;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: 100;
+    padding-left: 16px;
+    color: white;
+}
+.nav-item {
+    padding: 0 16px;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+.num {
+    color: #65f4c0;
+}
+
+
+@media only screen and (max-width: 500px){
+    .big-heading { /* h1 */
+        font-weight: 900;
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+
+    .section-heading { /* h3 */
+        font-size: 1.5rem;
+        line-height: 1.5;
+        color:rgba(255, 255, 255, 0.65);
+    }
+
+}
+/* IT SUPPORT */
+.form-group {
+    margin-top: 1.5rem;
+}
+
+.btn-table {
+    margin-bottom: 1px;
+    width: 95%;
+    margin: 0 0 5px 0;
+}
+
+/* Transaction Analyst */
+
+
+.table-borderless {
+    color:rgba(255, 255, 255, 0.9);
+    background-color: #303030;
+    border-radius: 18px;
+    margin-top: 2em;
+}
+
+td {
+    color: #DEFDF0;
+}
+
+.abnormal-text {
+    margin-bottom: 2em;
+}

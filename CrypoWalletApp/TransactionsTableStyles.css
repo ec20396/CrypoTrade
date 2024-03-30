@@ -1,0 +1,28 @@
+th{
+    vertical-align: top;
+    padding: 0.5rem 2rem;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+    font-family: Arial;
+    color: rgba(255, 255, 255, 0.65);
+
+}
+
+td{
+    font-family: Arial;
+    padding: 1rem 2rem;
+    color: rgba(255, 255, 255, 0.65);
+}
+table{
+    margin: auto;
+    background-color: #212121;
+}
+table, th, td{
+    border-collapse: collapse;
+    border: 0.3rem solid #65f4c0;
+}
+html{
+    background-color: #212121;
+}

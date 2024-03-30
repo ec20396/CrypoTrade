@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(33, 33, 33) !important;
+    font-family: Arial !important;
+    color: white !important;
+}
+
+.container-fluid {
+    padding: 0;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: 100;
+    padding-left: 16px;
+    color: white;
+}
+
+.nav-item {
+    padding: 0 16px;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+.num {
+    color: #65f4c0;
+}
+
+
+
+  /*/////////////////*/
+ /*CSS FOR SUBWALLET*/
+/*/////////////////*/
+.container-fluid{
+    background-image: linear-gradient(
+        rgb(49, 49, 49), rgb(35, 35, 35)
+    );
+}
+#myChart {
+  width: 400px;
+  height: 400px;
+  align-self: center;
+  padding: 3%;
+
+ 
+}
+
+/* The Modal (background) */
+#subWalletModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+#subWalletModalContents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       background-image: linear-gradient(
+        rgb(49, 49, 49), rgb(35, 35, 35)
+    );
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
+#transactionButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+    background-image: linear-gradient(
+        rgb(49, 49, 49), rgb(35, 35, 35)
+    );
+}
+button#buy, button#sell, button#exchange, button#confirm, button#cancel{
+    display: inline-block;
+    position: relative;
+    border: solid 1px rgb(94, 213, 155);
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(94, 213, 155);
+    
+}
+#subName, #subBalance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0.5%;
+    font-size: larger;
+    color: rgb(94, 213, 155);
+    background-image: linear-gradient(
+        rgb(49, 49, 49), rgb(35, 35, 35)
+    );
+}
+#seeMore{
+    padding-left: 3%;
+    font-size: 0.5rem;
+}
+  /*/////////////////////*/
+ /*CSS FOR SUBWALLET END*/
+/*/////////////////////*/
